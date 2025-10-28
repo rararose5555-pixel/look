@@ -1,6 +1,5 @@
 from collections import deque
 
-# ---- BFS Function ----
 def bfs(graph, start):
     visited = set()
     queue = deque([start])
@@ -16,7 +15,7 @@ def bfs(graph, start):
                     queue.append(neighbor)
     return order
 
-# ---- DFS Function ----
+
 def dfs(graph, start):
     visited = set()
     stack = [start]
@@ -33,7 +32,7 @@ def dfs(graph, start):
     return order
 
 
-# ---- Main Program ----
+
 if __name__ == "__main__":
 
     graph = {
@@ -52,3 +51,4 @@ if __name__ == "__main__":
     print("Start Node:", start)
     print("BFS Order:", bfs_order)
     print("DFS Order:", dfs_order)
+
