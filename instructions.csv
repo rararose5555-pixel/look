@@ -1,0 +1,15 @@
+In VS Code, open the terminal (Ctrl + ` ) and paste:
+For Python:
+bashpip install pandas numpy matplotlib scikit-learn seaborn statsmodels textblob
+For R — first install R extension in VS Code:
+
+Go to Extensions (Ctrl + Shift + X)
+Search "R" → install the one by REditorSupport
+Then in terminal:
+
+bashinstall.packages("ggplot2")
+
+To run files in VS Code:
+
+Python → just press ▶ Run button top right
+R → install the R extension, then press ▶ Run button
